@@ -4,3 +4,4 @@ resources:
   - laravel-hpa.yaml
   - mysql-statefulset.yaml
   - mysql-service.yaml
+  - pvc.yaml

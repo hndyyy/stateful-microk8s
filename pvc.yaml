@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mysql-data-mysql-0
+  namespace: laravel-ns
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi  # Sesuaikan dengan kebutuhan
+  storageClassName: standard  # Atau sesuaikan dengan StorageClass yang ada
