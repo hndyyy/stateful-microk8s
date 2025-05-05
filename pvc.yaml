@@ -8,5 +8,5 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 5Gi  # Sesuaikan dengan kebutuhan
-  storageClassName: standard  # Atau sesuaikan dengan StorageClass yang ada
+      storage: 5Gi  # Sesuaikan dengan kapasitas yang dibutuhkan
+  storageClassName: laravel-storage  # Pastikan menggunakan StorageClass yang sesuai
