@@ -5,3 +5,4 @@ resources:
   - mysql-statefulset.yaml
   - mysql-service.yaml
   - pvc.yaml
+  - storage.yaml
