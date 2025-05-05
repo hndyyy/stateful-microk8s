@@ -5,6 +5,7 @@ metadata:
   namespace: laravel-ns
 spec:
   replicas: 2
+  hostname: root
   selector:
     matchLabels:
       app: laravel
