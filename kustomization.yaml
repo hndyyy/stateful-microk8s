@@ -1,0 +1,6 @@
+resources:
+  - laravel-deployment.yaml
+  - laravel-service.yaml
+  - laravel-hpa.yaml
+  - mysql-statefulset.yaml
+  - mysql-service.yaml
