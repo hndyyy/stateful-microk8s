@@ -1,3 +1,4 @@
+# mysql-pvc.yaml
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
@@ -8,5 +9,5 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 5Gi  # Sesuaikan dengan kapasitas yang dibutuhkan
-  storageClassName: laravel-storage  # Pastikan menggunakan StorageClass yang sesuai
+      storage: 5Gi
+  storageClassName: microk8s-hostpath

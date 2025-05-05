@@ -1,6 +1,6 @@
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
 metadata:
-  name: laravel-storage  # Nama StorageClass
+  name: microk8s-hostpath
 provisioner: kubernetes.io/no-provisioner  # Tidak ada provisioner otomatis (untuk testing lokal)
 volumeBindingMode: WaitForFirstConsumer
